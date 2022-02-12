@@ -4,9 +4,317 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lamodots</title>
+    <meta
+      name="description"
+      content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+    />
+    <meta name="author" content="Lamodots" />
+    <link rel="shortcut icon" href="images/lamodot_favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/lamodot_favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <title>Lamodots | LamoCodes | Frontend Web Developer</title>
 </head>
 <body>
+        <header id="home">
+            <div class="navbar__container">
+                <div class="logo__container">
+                    <div class="logo__content">
+                        <img src="images/lamodot_logo.png">
+                    </div>
+                    <span>Lamodot</span>        
+                    
+                </div>
+                <div class="header_menu">
+                <ul class="nav__links">
+                    <li><a href="./#home">Home</a></li>
+                    <li><a href="./#about">About</a></li>
+                    <li><a href="./#projects">Projects</a></li>
+                    <li><a href="./#contact">Contact</a></li>                </ul>
+                <div class="hambuger_container" onclick="smMenu()">
+                    <img src="images/ham-menu.svg" alt="hambuger menu open" class="ham__open" id="d-open">
+                    <img src="images/ham-menu-close.svg" alt="hambuger menu close" class="ham__close d-none" id="d-close">
+                </div>
+            </div>
+            </div>
+            <div class="header__sm__menu" id="smallmenu">
+                <div class="header__sm__menu__content">
+                    <ul class="header__menu__links">
+                        <li><a href="./#home" onclick="smMenu()">Home</a></li>
+                        <li><a href="./#about" onclick="smMenu()">About</a></li>
+                        <li><a href="./#projects" onclick="smMenu()">Projects</a></li>
+                        <li><a href="./#contact" onclick="smMenu()">Contact</a></li>
     
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+        <main class="main__section">
+                <section class="hero__section">
+                  <div class="hero__container">
+                      <h1> Hey, i am Lamodot <span class="lam">Lamodot</span></h1>
+                      <div class="hero__content">
+                          <p>
+                            A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+                          </p>
+                          <div class="hero_cta">
+                              <a href="/#projects">Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socials__content">
+                        <div class="socials__info">
+                            <a href="#" target="_blank"  class="linkedin">
+                                <img src="images/linkedin-ico.png" alt="lamodots LinkedIn profile">
+                            </a>
+                        </div>
+                        <div class="socials__info">
+                            <a href="#" target="_blank"  class="linkedin">
+                                <img src="images/github-ico.png" alt="lamodots github profile">
+                            </a>
+                        </div>
+                        <div class="socials__info">
+                            <a href="#" target="_blank"  class="linkedin">
+                                <img src="images/devTo-ico.png" alt="Lamodots developer community profile">
+                            </a>
+                        </div>
+                        <div class="socials__info">
+                            <a href="#" target="_blank"  class="linkedin">
+                                <img src="images/youttube-ico.png" alt="Lamodts youtube channel">
+                            </a>
+                        </div>
+                        
+                        
+                    </div>  
+                    <div class="scroll__container">
+                        <div class="mouse"></div>
+                    </div>
+                  <div class="bubbles">
+                      <img src="images/bubble.png">
+                      <img src="img/bubble1.png">
+                      <img src="img/bubble2.png">
+                      <img src="img/bubble3.png">
+                      <img src="img/bubble4.png">
+                      <img src="img/bubble5.png">
+                      <img src="img/bubble6.png">
+                  </div>
+                </section>
+                <section class="about__me section__scroll" id="about">
+                    <div class="about__container">
+                        <h2 id="heading__h2">
+                            <span class="heading__ofabout">ABOUT ME</span>
+                            <span class="heading__wr">
+                                Here you will find more information about me, what I do, and my
+                                 current skills mostly in terms of programming and technology
+                            </span>
+                        </h2>
+                        <div class="about__content">
+                            <div class="about__content__main">
+                                <h3>Get to know me!</h3>
+                                <div class="about__content___details">
+                                    <p> I'm a <strong>Frontend Web Developer</strong> building the
+                                        Front-end of Websites and Web Applications that leads to the
+                                        success of the overall product. Check out some of my work in the
+                                        <strong>Projects</strong> section.
+                                    </p>
+                                    <p>
+                                        I also like sharing content related to the stuff that I have
+                                        learned over the years in <strong>Web Development</strong> so it
+                                        can help other people of the Dev Community. Feel free to Connect
+                                        or Follow me on my <a href="www.linkedin.com/in/lamodots" target="_blank">linkedin</a> where I post useful content related to Web Development and
+                                        Programming.
+                                    </p>
+                                    <p>
+                                        I'm open to <strong>Job</strong> opportunities where I can
+                                        contribute, learn and grow. If you have a good opportunity that
+                                        matches my skills and experience then don't hesitate to
+                                        <strong>contact</strong> me.
+                                      </p>
+                                </div>
+                                <a href="./#contact" class="contact__btn">Contact</a>
+                            </div>
+                        
+                        <div class="skills__content">
+                            <h3>My Skills</h3>
+                            <div class="skills">
+                                <div class="html">HTML</div>
+                                <div class="html">CSS</div>
+                                <div class="html">SASS</div>
+                                <div class="html">Tailwind CSS</div>
+                                <div class="html">Bootstrap</div>
+                                <div class="html">WordPress</div>
+                                <div class="html">Responsive Design</div>
+                                <div class="html">JavaScript</div>
+                                <div class="html">JQuery</div>
+                                <div class="html">React</div>
+                                <div class="html">Node Js</div>
+                                <div class="html">Git</div>
+                                <div class="html">Terminal</div>
+                                <div class="html">Github</div>
+                                <div class="html">SEO</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <section class="my__projects section__scroll" id="projects" >
+                    <div class="project__container">
+                        <h2 id="heading__h2">
+                            <span class="heading__ofabout">Projects</span>
+                            <span class="heading__wr">
+                                Here you will find some of the personal and clients projects that I
+                                created with each project containing its own case study
+                            </span>
+                        </h2>
+                    <div class="project__content">
+                        <div class="project__row">
+                            <div class="project__row__img">
+                                <img src="images/lamodot_logo.png" alt="" loading="lazy">
+                            </div>
+                            <div class="project__row__content">
+                                <h3>YTchannel</h3>
+                                <p>
+                                Yubter is a platform that I created where people can join the
+                                community of their favorite youtube channels and can be part of the conversation.
+                
+                                </p>
+                                <a href="/casestudyid=project1.html" target="_blank" class="case__study_btn">Case Study</a>
+                            </div>
+                        </div>
+                        <div class="project__row">
+                            <div class="project__row__img">
+                                <img src="images/lamodot_logo.png" alt="" loading="lazy">
+                            </div>
+                            <div class="project__row__content">
+                                <h3>YTchannel</h3>
+                                <p>
+                                Yubter is a platform that I created where people can join the
+                                community of their favorite youtube channels and can be part of the conversation.
+                
+                                </p>
+                                <a href="/project-2" target="_blank" class="case__study_btn">Case Study</a>
+                            </div>
+                        </div>
+                        <div class="project__row">
+                            <div class="project__row__img">
+                                <img src="images/lamodot_logo.png" alt="" loading="lazy">
+                            </div>
+                            <div class="project__row__content">
+                                <h3>YTchannel</h3>
+                                <p>
+                                Yubter is a platform that I created where people can join the
+                                community of their favorite youtube channels and can be part of the conversation.
+                
+                                </p>
+                                <a href="/project-3" target="_blank" class="case__study_btn">Case Study</a>
+                            </div>
+                        </div>
+                        <div class="project__row">
+                            <div class="project__row__img">
+                                <img src="images/lamodot_logo.png" alt="" loading="lazy">
+                            </div>
+                            <div class="project__row__content">
+                                <h3>YTchannel</h3>
+                                <p>
+                                Yubter is a platform that I created where people can join the
+                                community of their favorite youtube channels and can be part of the conversation.
+                
+                                </p>
+                                <a href="/project-4" target="_blank" class="case__study_btn">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <section class="contact__me section__scroll" id="contact">
+                    <div class="contact__container">
+                        <h2 id="heading__h2_ct">
+                        <span class="heading__ofabout_ct">Contact</span>
+                        <span class="heading__wr_ct">
+                            Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+                           
+                        </span>
+                        </h2>
+                        <div class="contact__form_container">
+                            <form action="#" method="POST">
+                                <div class="contact__form__field">
+                                    <label for="name">Name</label>
+                                    <input required placeholder="Enter Your Name" type="text" name="name" id="name">
+                                </div>
+                                <div class="contact__form__field">
+                                    <label for="email">Email</label>
+                                    <input required placeholder="Enter Your Email" type="email" name="email" id="email">
+                                </div>
+                                <div class="contact__form__field">
+                                    <label for="message">Message</label>
+                                    <textarea cols="30" rows="10" required placeholder="Enter Your Message" type="text" name="message" id="message"></textarea>
+                                </div>
+                                <button type="submit">Submit</button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                </section>
+                <footer class="main__footer">
+                    <div class="footer__container">
+                        <div class="upper__footer">
+                            <div class="row-1__upper__footer">
+                                <h2>
+                                    <span>Social</span>
+                                </h2>
+                                <div class="upper__footer__content">
+                                  <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                <img src="images/linkedin-ico.png" alt="Lamodots Linkedin Profile">
+                                </a>
+                                <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                    <img src="images/github-ico.png" alt="Lamodots Linkedin Profile">
+                                    </a>  
+                                    <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                        <img src="images/devTo-ico.png" alt="Lamodots Linkedin Profile">
+                                        </a>  
+                                        <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                <img src="images/youttube-ico.png" alt="Lamodots Linkedin Profile" class="last">
+                                </a>    
+
+                                </div>
+                            </div>
+                            <div class="row-2__upper__footer">
+                                <h2>Lamodots</h2>
+                                <p>
+                                    A Frontend focused Web Developer building the Frontend of Websites
+                                    and Web Applications that leads to the success of the overall
+                                    product 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lower__footer">
+                            &copy; Copyright 2021. Made by <a rel="noreferer" target="_blank" href="https://lamodots.com"> Lamodots</a>
+                        </div>
+
+                    </div>
+                </footer>
+        </main>
+        <script>
+           function smMenu(){
+                var x = document.getElementById("d-close");
+                var i = document.getElementById("smallmenu");
+                if( i.style.display === "block"  ){
+                   i.style.display="none";
+                }else{
+                    i.style.display="block";
+                   
+                   
+                    i.style.transitionDuration="3s";
+                    i.style.transitionDelay="2s"
+                    i.style.transitionTimingFunction="easeIn"
+                    i.style.transitionProperty="display"
+                }
+            }
+            
+        </script>
 </body>
 </html>

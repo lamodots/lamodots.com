@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+    />
+    <meta name="author" content="Lamodots" />
+    <link rel="shortcut icon" href="images/lamodot_favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/lamodot_favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <title>Lamodots | LamoCodes | Frontend Web Developer</title>
+</head>
+<body>
+        <header id="home">
+            <div class="navbar__container">
+                <div class="logo__container">
+                    <div class="logo__content">
+                        <img src="images/lamodot_logo.png">
+                    </div>
+                    <span>Lamodot</span>        
+                    
+                </div>
+                <div class="header_menu">
+                <ul class="nav__links">
+                    <li><a href="./#home">Home</a></li>
+                    <li><a href="./#about">About</a></li>
+                    <li><a href="./#projects">Projects</a></li>
+                    <li><a href="./#contact">Contact</a></li>
+
+                </ul>
+                <div class="hambuger_container" onclick="smMenu()">
+                    <img src="images/ham-menu.svg" alt="hambuger menu open" class="ham__open" id="d-open">
+                    <img src="images/ham-menu-close.svg" alt="hambuger menu close" class="ham__close d-none" id="d-close">
+                </div>
+            </div>
+            </div>
+            <div class="header__sm__menu" id="smallmenu">
+                <div class="header__sm__menu__content">
+                    <ul class="header__menu__links">
+                        <li><a href="./#home" onclick="smMenu()">Home</a></li>
+                        <li><a href="./#about" onclick="smMenu()">About</a></li>
+                        <li><a href="./#projects" onclick="smMenu()">Projects</a></li>
+                        <li><a href="./#contact" onclick="smMenu()">Contact</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+        <main class="main__section">
+                <section class="hero__section">
+                  <div class="hero__container">
+                      <h1> Hey, i am Lamodot <span class="lam">Lamodot</span></h1>
+                      <div class="hero__content">
+                          <p>
+                            A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+                          </p>
+                          <div class="hero_cta">
+                              <a href="/#projects">Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                      
+                   
+                 
+                </section>
+                
+                <section class="my__projects section__scroll" id="projects" >
+                    <div class="project__container">
+                        
+                    <div class="project__content">
+                        <div class="project__row">
+                            <div class="project__row__img">
+                                <img src="images/lamodot_logo.png" alt="" loading="lazy">
+                            </div>
+                            <div class="project__row__content">
+                                <h3>YTchannel</h3>
+                                <p>
+                                Yubter is a platform that I created where people can join the
+                                community of their favorite youtube channels and can be part of the conversation.
+                
+                                </p>
+                                <a href="/project-1" target="_blank" class="case__study_btn">Case Study</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+              
+                <footer class="main__footer">
+                    <div class="footer__container">
+                        <div class="upper__footer">
+                            <div class="row-1__upper__footer">
+                                <h2>
+                                    <span>Social</span>
+                                </h2>
+                                <div class="upper__footer__content">
+                                  <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                <img src="images/linkedin-ico.png" alt="Lamodots Linkedin Profile">
+                                </a>
+                                <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                    <img src="images/github-ico.png" alt="Lamodots Linkedin Profile">
+                                    </a>  
+                                    <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                        <img src="images/devTo-ico.png" alt="Lamodots Linkedin Profile">
+                                        </a>  
+                                        <a target="_blank" rel="noreferrer" href="https://linkedin.com/me/lamodots">
+                                <img src="images/youttube-ico.png" alt="Lamodots Linkedin Profile" class="last">
+                                </a>    
+
+                                </div>
+                            </div>
+                            <div class="row-2__upper__footer">
+                                <h2>Lamodots</h2>
+                                <p>
+                                    A Frontend focused Web Developer building the Frontend of Websites
+                                    and Web Applications that leads to the success of the overall
+                                    product 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lower__footer">
+                            &copy; Copyright 2021. Made by <a rel="noreferer" target="_blank" href="https://lamodots.com"> Lamodots</a>
+                        </div>
+
+                    </div>
+                </footer>
+        </main>
+        <script>
+           function smMenu(){
+                var x = document.getElementById("d-close");
+                var i = document.getElementById("smallmenu");
+                if( i.style.display === "block"  ){
+                   i.style.display="none";
+                }else{
+                    i.style.display="block";
+                   
+                   
+                    i.style.transitionDuration="3s";
+                    i.style.transitionDelay="2s"
+                    i.style.transitionTimingFunction="easeIn"
+                    i.style.transitionProperty="display"
+                }
+            }
+            
+        </script>
+</body>
+</html>
