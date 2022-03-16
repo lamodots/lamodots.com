@@ -1347,6 +1347,13 @@ flex-direction: column;
         text-align: center;
 
     }
+    .proj_links{
+        display:flex;
+        flex-direction:column;
+    }
+    .git{
+        margin-top:10px;
+    }
     .lower__footer a{
         text-decoration: underline;
         font-weight: 700;
