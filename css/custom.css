@@ -1120,8 +1120,9 @@ flex-direction: column;
     font-size: 21px;
     line-height: 42px;
     margin-bottom: 16px;
-    letter-spacing: 3px;
-    margin-left: 90px;
+    /* letter-spacing: 3px; */
+    /* margin-left: 90px; */
+    text-align:center;
     transform: translateX(10px);
     
     
@@ -1353,6 +1354,8 @@ flex-direction: column;
     }
     .git{
         margin-top:10px;
+        display:inline-block;
+        background-color:red;
     }
     .lower__footer a{
         text-decoration: underline;
