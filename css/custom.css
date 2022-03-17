@@ -1015,9 +1015,10 @@ display: flex;
 flex-direction: column;
 }
 .about__content__main{
-    /* background-color:red; */
+    
+    
     /* max-width: 375px; */
-    width: 375px;
+    width: 340px;
     margin-left: 0; 
     margin-right:10px;
     
